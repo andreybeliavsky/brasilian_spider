@@ -1,0 +1,22 @@
+.effect {
+    &__list {
+        &-item {
+            @extend .relative;
+            padding-left: 20px;
+            font-size: 18px;
+            line-height: 1.5;
+
+            &::before {
+                position: absolute;
+                width: 9px;
+                height: 9px;
+                top: 7px;
+                left: 0;
+                background: #d93244;
+                box-shadow: 0 0 10px #d93244;
+                border-radius: 50%;
+                content: "";
+            }
+        }
+    }
+}
