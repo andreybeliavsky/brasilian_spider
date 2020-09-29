@@ -1,144 +1,145 @@
 @mixin sm-block() {
-    @media screen and (min-width: $break__sm) {
-        @content;
-    }
+  @media screen and (min-width: $break__sm) {
+    @content;
+  }
 }
 
 @mixin md-block() {
-    @media screen and (min-width: $break__md) {
-        @content;
-    }
+  @media screen and (min-width: $break__md) {
+    @content;
+  }
 }
 
 @mixin lg-block() {
-    @media screen and (min-width: $break__lg) {
-        @content;
-    }
+  @media screen and (min-width: $break__lg) {
+    @content;
+  }
 }
 
 @mixin reset() {
-    *,
-    *::before,
-    *::after {
-        box-sizing: border-box;
-    }
-    body,
-    div,
-    dl,
-    dt,
-    dd,
-    ul,
-    li,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    pre,
-    code,
-    form,
-    fieldset,
-    input,
-    textarea,
-    p,
-    blockquote,
-    th,
-    td {
-        margin: 0;
-        padding: 0;
-    }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 
-    table {
-        border-collapse: collapse;
-        border-spacing: 0;
-    }
+  body,
+  div,
+  dl,
+  dt,
+  dd,
+  ul,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  pre,
+  code,
+  form,
+  fieldset,
+  input,
+  textarea,
+  p,
+  blockquote,
+  th,
+  td {
+    margin: 0;
+    padding: 0;
+  }
 
-    fieldset,
-    img,
-    abbr {
-        border: 0;
-    }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
 
-    address,
-    caption,
-    cite,
-    code,
-    dfn,
-    em,
-    strong,
-    th,
-    var {
-        font-style: normal;
-        font-weight: normal;
-    }
+  fieldset,
+  img,
+  abbr {
+    border: 0;
+  }
 
-    ul li {
-        list-style: none;
-    }
+  address,
+  caption,
+  cite,
+  code,
+  dfn,
+  em,
+  strong,
+  th,
+  var {
+    font-weight: normal;
+    font-style: normal;
+  }
 
-    caption,
-    th {
-        text-align: left;
-    }
+  ul li {
+    list-style: none;
+  }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-size: 100%;
-        font-weight: normal;
-    }
+  caption,
+  th {
+    text-align: left;
+  }
 
-    sup {
-        vertical-align: text-top;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: normal;
+    font-size: 100%;
+  }
 
-    sub {
-        vertical-align: text-bottom;
-    }
+  sup {
+    vertical-align: text-top;
+  }
 
-    input,
-    textarea,
-    select {
-        font-family: inherit;
-        font-size: inherit;
-        font-weight: inherit;
-    }
+  sub {
+    vertical-align: text-bottom;
+  }
 
-    legend {
-        color: #000;
-    }
+  input,
+  textarea,
+  select {
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: inherit;
+  }
 
-    article,
-    aside,
-    details,
-    figcaption,
-    figure,
-    footer,
-    header,
-    hgroup,
-    menu,
-    nav,
-    section,
-    main {
-        display: block;
-    }
+  legend {
+    color: #000;
+  }
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section,
+  main {
+    display: block;
+  }
 
-    a {
-        text-decoration: none;
-    }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
-    input,
-    textarea,
-    button {
-        outline: none;
-    }
+  a {
+    text-decoration: none;
+  }
+
+  input,
+  textarea,
+  button {
+    outline: none;
+  }
 }

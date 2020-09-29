@@ -1,2 +1,14 @@
 .title {
+  color: $white-color;
+  font-size: 30px;
+  line-height: 1.2;
+
+  &__text {
+    text-transform: uppercase;
+    @extend %bold-weight;
+  }
+
+  &__accent {
+    @extend %brand-color;
+  }
 }

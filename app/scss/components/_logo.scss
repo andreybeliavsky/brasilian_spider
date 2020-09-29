@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    width: 31px;
+    height: 43px;
+    margin-right: 10px;
+  }
+
+  &__content {
+    font-size: 21px;
+    line-height: 1.1;
+  }
+
+  &__title {
+    color: $white-color;
+    text-transform: uppercase;
+    @extend %bold-weight;
+  }
+
+  &__subtitle {
+    @extend %brand-color;
+  }
+}

@@ -1,0 +1,17 @@
+.research {
+  &__list {
+    &-item {
+      @extend %mb-1;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &-item {
+    padding: 20px;
+    background: linear-gradient(290deg, #121212, #2f2f2f);
+    border-radius: 10px;
+  }
+}
