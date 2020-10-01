@@ -1,10 +1,15 @@
 .text {
+  @extend %text;
 }
 
 .text-bold {
   @extend %bold-weight;
 }
 
+.text-upper {
+  @extend %text-upper;
+}
+
 .text-accent {
-  color: $brand-color;
+  @extend %brand-color;
 }

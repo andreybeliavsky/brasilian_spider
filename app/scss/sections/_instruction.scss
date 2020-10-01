@@ -1,0 +1,55 @@
+.instruction {
+  &__title {
+    @extend %mb-2;
+  }
+
+  &__list {
+    @extend %mb-2;
+  }
+
+  &__list-item {
+    @extend %mb-2;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__image {
+    @extend %mb-3;
+  }
+}
+
+.instruction-item {
+  &__icon {
+    float: left;
+    margin-right: 20px;
+    color: transparent;
+
+    &--gel {
+      width: 23px;
+      height: 45px;
+    }
+
+    &--capsule {
+      width: 48px;
+      height: 45px;
+    }
+  }
+
+  &__name {
+    font-size: 24px;
+    line-height: 45px;
+    @extend %bold-weight;
+
+    &::after {
+      display: block;
+      clear: both;
+      content: "";
+    }
+  }
+
+  &__text {
+    @extend %mt-1;
+  }
+}

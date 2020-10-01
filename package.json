@@ -32,7 +32,8 @@
     "yargs": "^15.0.2"
   },
   "dependencies": {
-    "perfect-scrollbar": "^1.5.0"
+    "perfect-scrollbar": "^1.5.0",
+    "swiper": "^6.3.2"
   },
   "author": "Andrey Beliavsky <andreybeliavsky@gmail.com>"
 }

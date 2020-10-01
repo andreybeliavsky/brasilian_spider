@@ -1,7 +1,7 @@
 .button {
   display: inline-block;
   width: 100%;
-  padding: 26px;
+  // padding: 26px;
   color: $white-color;
   font-weight: $bold-weight;
   font-size: 30px;
@@ -9,6 +9,40 @@
   text-align: center;
   text-transform: uppercase;
   background: $brand-color;
-  border: 0;
+  background: linear-gradient(180deg, #d93244, #8f0b0d),
+    linear-gradient(rgba($white-color, 1), rgba($white-color));
+  background-clip: content-box, border-box;
+  background-origin: border-box;
+  border: 1px double transparent;
   border-radius: 10px;
+  @extend %relative;
+  // box-shadow: 0 0 50px 0 $brand-color;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(217, 50, 68, 0.4);
+    border-radius: inherit;
+    filter: blur(50px);
+    content: "";
+  }
+
+  &__inner {
+    display: block;
+    padding: 26px;
+    @extend %relative;
+  }
+}
+
+.button-1 {
+  width: 300px;
+  height: 80px;
+  background-image: radial-gradient(circle at top left, #f00, #3020ff);
+  background-clip: content-box, border-box;
+  background-origin: border-box;
+  border: double 4px transparent;
+  border-radius: 80px;
 }

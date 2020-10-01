@@ -6,6 +6,6 @@ module.exports = {
   ],
   plugins: ["stylelint-order", "stylelint-scss"],
   rules: {
-    "max-nesting-depth": null,
+    "max-nesting-depth": 3,
   },
 };

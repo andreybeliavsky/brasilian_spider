@@ -1,5 +1,21 @@
 .advantage {
+  &__title {
+    @extend %mb-3;
+  }
+
+  &__image {
+    @extend %mb-3;
+  }
+
+  &__subtitle {
+    @extend %text;
+    @extend %bold-weight;
+    @extend %mb-1;
+  }
+
   &__list {
+    padding-right: 20px;
+    padding-left: 20px;
     @extend %mb-4;
   }
 
@@ -10,39 +26,74 @@
       margin-bottom: 0;
     }
   }
+}
 
-  &-item {
-    padding-bottom: 10px;
+.advantage-item {
+  padding-bottom: 10px;
+  @extend %relative;
+
+  &::before {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 0;
+    left: 10px;
+    background: rgba(37, 37, 37, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    content: "";
+  }
+
+  &__inner {
+    z-index: 1;
+    padding: 40px 30px;
+    background: linear-gradient(290deg, #121212 0%, #2f2f2f 100%);
+    border-radius: 10px;
     @extend %relative;
+    @extend %hidden;
+  }
 
-    &::before {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      bottom: 0;
-      left: 10px;
-      background: rgba(37, 37, 37, 0.5);
-      border-radius: 10px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-      content: "";
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgba($white-color, 0.05);
+    transform: translateY(-50%);
+
+    &--libido {
+      width: 206px;
+      height: 206px;
+      transform: rotate(-15deg) translateY(-50%);
     }
 
-    &__inner {
-      z-index: 1;
-      padding: 40px 30px;
-      background: linear-gradient(290deg, #121212 0%, #2f2f2f 100%);
-      border-radius: 10px;
-
-      @extend %relative;
+    &--clock {
+      width: 234px;
+      height: 235px;
     }
 
-    &__num {
-      color: #d93244;
-      font-weight: $bold-weight;
-      font-size: 50px;
+    &--recovery {
+      width: 247px;
+      height: 254px;
     }
 
-    &__text {
+    &--genome {
+      width: 158px;
+      height: 283px;
     }
+  }
+
+  &__num {
+    font-size: 50px;
+    line-height: 1;
+    @extend %brand-color;
+    @extend %bold-weight;
+    @extend %mb-1;
+    @extend %relative;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 1.5;
+    @extend %relative;
   }
 }

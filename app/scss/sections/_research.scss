@@ -1,17 +1,42 @@
 .research {
-  &__list {
-    &-item {
-      @extend %mb-1;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
+  &__title {
+    @extend %mb-2;
   }
 
-  &-item {
-    padding: 20px;
-    background: linear-gradient(290deg, #121212, #2f2f2f);
-    border-radius: 10px;
+  &__list-item {
+    @extend %mb-1;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.research-item {
+  display: flex;
+  flex-direction: column;
+  min-height: 160px;
+  padding: 20px;
+  background: linear-gradient(290deg, #121212, #2f2f2f);
+  border-radius: 10px;
+
+  &__name {
+    display: flex;
+    @extend %mb-2;
+  }
+
+  &__name-text {
+    flex-grow: 1;
+    @extend %text;
+  }
+
+  &__name-icon {
+    flex-shrink: 0;
+    width: 30px;
+    margin-left: 20px;
+  }
+
+  &__progress {
+    margin-top: auto;
   }
 }

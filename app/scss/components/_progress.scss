@@ -1,0 +1,56 @@
+.progress {
+  display: flex;
+  align-items: baseline;
+
+  &__bar {
+    flex-grow: 1;
+    height: 9px;
+    background: $white-color;
+    border-radius: 10px;
+    @extend %relative;
+    @extend %hidden;
+  }
+
+  &__bar-scale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    content: "";
+
+    &--1 {
+      background: linear-gradient(360deg, #ffef50, #f9b451);
+    }
+
+    &--2 {
+      background: linear-gradient(360deg, #f8af54, #ef7f88);
+    }
+
+    &--3 {
+      background: linear-gradient(360deg, #ee7494, #d35d99);
+    }
+
+    &--4 {
+      background: linear-gradient(360deg, #da8dbc, #a25180);
+    }
+
+    &--5 {
+      background: linear-gradient(360deg, #70c5ca, #5facbc);
+    }
+
+    &--6 {
+      background: linear-gradient(360deg, #72bc79, #40ae98);
+    }
+  }
+
+  &__value {
+    flex-shrink: 0;
+    width: 40px;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 1;
+    text-align: right;
+    @extend %bold-weight;
+  }
+}

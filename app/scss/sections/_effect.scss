@@ -1,10 +1,26 @@
 .effect {
-  &__list-item {
-    padding-left: 20px;
-    font-size: 18px;
-    line-height: 1.5;
+  &__title {
+    @extend %mb-2;
+  }
 
+  &__subtitle {
+    @extend %mb-2;
+    @extend %text;
+  }
+
+  &__list {
+    @extend %mb-1;
+  }
+
+  &__list-item {
+    margin-bottom: 2px;
+    padding-left: 20px;
+    @extend %text;
     @extend %relative;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
 
     &::before {
       position: absolute;
@@ -12,9 +28,9 @@
       left: 0;
       width: 9px;
       height: 9px;
-      background: #d93244;
+      background: $brand-color;
       border-radius: 50%;
-      box-shadow: 0 0 10px #d93244;
+      box-shadow: 0 0 10px $brand-color;
       content: "";
     }
   }
