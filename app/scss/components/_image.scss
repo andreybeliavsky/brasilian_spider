@@ -1,6 +1,5 @@
 .image {
   text-align: center;
-
   @extend %relative;
 
   &::before {
@@ -21,7 +20,6 @@
 
   &__product {
     z-index: 2;
-
     @extend %relative;
 
     &--1 {

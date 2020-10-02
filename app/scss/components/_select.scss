@@ -1,7 +1,6 @@
 .select {
   background: #f6f6f6;
   border-radius: 10px;
-
   @extend %relative;
 
   &::before {
@@ -30,7 +29,6 @@
     font-size: 14px;
     line-height: 55px;
     outline: none;
-
     @extend %relative;
 
     &:focus {

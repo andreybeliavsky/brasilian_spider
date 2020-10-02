@@ -2,7 +2,6 @@
   display: inline-block;
   padding-top: 3px;
   padding-left: 28px;
-
   @extend %relative;
 
   &__control {
@@ -28,8 +27,9 @@
       display: block;
       width: 6px;
       height: 9px;
-      border: 1px solid #656565;
       border-width: 0 2px 2px 0;
+      border-style: solid;
+      border-color: #656565;
       content: "";
       opacity: 0;
       transform: rotate(45deg);

@@ -11,26 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ffd0ee1-7f07-4088-a2c4-44f82b612e5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.stylelintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/components/_check.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_check.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/_select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/core/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/core/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/core/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/core/_mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/sections/_description.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_description.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/sections/_effect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_effect.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/sections/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/sections/_instruction.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_instruction.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/sections/_promo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_promo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/sections/_research.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_research.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/sections/_specialist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_specialist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +52,7 @@
       <workItem from="1601038836240" duration="111000" />
       <workItem from="1601038960994" duration="504000" />
       <workItem from="1601621150645" duration="9254000" />
-      <workItem from="1601631027214" duration="215000" />
+      <workItem from="1601631027214" duration="352000" />
     </task>
     <servers />
   </component>

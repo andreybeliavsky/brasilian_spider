@@ -1,6 +1,5 @@
 .form {
   padding-bottom: 10px;
-
   @extend %relative;
 
   &::before {
@@ -20,7 +19,6 @@
     padding: 35px 15px;
     background: $white-color;
     border-radius: 10px;
-
     @extend %relative;
   }
 
@@ -30,7 +28,6 @@
     font-weight: $bold-weight;
     line-height: 1.15;
     text-align: center;
-
     @extend %mb-1;
   }
 
@@ -39,7 +36,6 @@
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
-
     @extend %mb-2;
   }
 
