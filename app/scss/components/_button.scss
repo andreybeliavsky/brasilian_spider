@@ -9,13 +9,14 @@
   text-align: center;
   text-transform: uppercase;
   background: $brand-color;
-  background: linear-gradient(180deg, #d93244, #8f0b0d),
-    linear-gradient(rgba($white-color, 1), rgba($white-color));
+  //background: linear-gradient(180deg, #d93244, #8f0b0d),
+  //  linear-gradient(rgba($white-color, 1), rgba($white-color));
   background-clip: content-box, border-box;
   background-origin: border-box;
   border: 1px double transparent;
   border-radius: 10px;
   @extend %relative;
+  display: none;
   // box-shadow: 0 0 50px 0 $brand-color;
 
   &::before {
