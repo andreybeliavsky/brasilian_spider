@@ -1,5 +1,6 @@
 .form {
   padding-bottom: 10px;
+
   @extend %relative;
 
   &::before {
@@ -8,9 +9,9 @@
     right: 10px;
     bottom: 0;
     left: 10px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, .9);
     border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, .1);
     content: "";
   }
 
@@ -19,6 +20,7 @@
     padding: 35px 15px;
     background: $white-color;
     border-radius: 10px;
+
     @extend %relative;
   }
 
@@ -28,6 +30,7 @@
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
+
     @extend %mb-1;
   }
 
@@ -36,6 +39,7 @@
     font-size: 14px;
     line-height: 1.5;
     text-align: center;
+
     @extend %mb-2;
   }
 

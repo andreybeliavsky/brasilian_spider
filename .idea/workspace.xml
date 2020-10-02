@@ -12,7 +12,24 @@
   <component name="ChangeListManager">
     <list default="true" id="2ffd0ee1-7f07-4088-a2c4-44f82b612e5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/_logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_logo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/core/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/core/_mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_advantage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_advantage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_description.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_description.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_effect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_effect.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_instruction.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_instruction.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_order.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_promo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_promo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_research.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_research.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/sections/_specialist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_specialist.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +69,7 @@
       <workItem from="1601038320902" duration="239000" />
       <workItem from="1601038836240" duration="111000" />
       <workItem from="1601038960994" duration="504000" />
-      <workItem from="1601621150645" duration="7523000" />
+      <workItem from="1601621150645" duration="8608000" />
     </task>
     <servers />
   </component>

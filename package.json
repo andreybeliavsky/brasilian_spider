@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "husky": {"hooks": {"pre-commit": "lint-staged"}},
-  "lint-staged": {"app/**/*.scss": ["stylelint --fix"]},
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "app/**/*.scss": ["stylelint --fix"]
+  },
   "scripts": {
     "start": "gulp",
     "build": "gulp prod --production",

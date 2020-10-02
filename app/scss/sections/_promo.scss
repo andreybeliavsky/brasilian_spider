@@ -1,15 +1,16 @@
 .promo {
+
   &__box {
     padding: 10px;
     background: url("../img/promo-bg.png") center top no-repeat,
       linear-gradient(290deg, #121212, #2f2f2f);
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
   }
 
   &__box-inner {
     padding: 370px 10px 10px;
-    border: 1px solid rgba($white-color, 0.2);
+    border: 1px solid rgba($white-color, .2);
     border-radius: 10px;
   }
 
