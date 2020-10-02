@@ -16,7 +16,11 @@
   border: 1px double transparent;
   border-radius: 10px;
   @extend %relative;
+  background: red;
   display: none;
+  z-index: 2;
+  content: "";
+
   // box-shadow: 0 0 50px 0 $brand-color;
 
   &::before {

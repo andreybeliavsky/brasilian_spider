@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "husky": {"hooks": {"pre-commit": "lint-staged"}},
+  "lint-staged": {"app/**/*.scss": ["stylelint --fix"]},
   "scripts": {
     "start": "gulp",
     "build": "gulp prod --production",
     "lint": "stylelint \"app/**/*.scss\" --syntax=scss",
-    "lint --fix": "stylelint \"app/**/*.scss\" --syntax=scss --fix",
-    "husky": {"hooks": {"pre-commit": "lint-staged"}},
-    "lint-staged": {"app/**/*.scss": ["stylelint --fix"]}
+    "lint --fix": "stylelint \"app/**/*.scss\" --syntax=scss --fix"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
