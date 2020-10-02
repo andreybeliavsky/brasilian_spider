@@ -9,6 +9,7 @@
   ],
   "rules": {
     "max-nesting-depth": 3,
-    "at-rule-empty-line-before": null
+    "at-rule-empty-line-before": null,
+    "linebreaks": "windows"
   }
 }
