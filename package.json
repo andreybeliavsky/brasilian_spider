@@ -9,17 +9,24 @@
     }
   },
   "lint-staged": {
-    "app/**/*.scss": ["stylelint --fix"]
+    "app/**/*.scss": [
+      "stylelint --fix"
+    ]
   },
   "scripts": {
     "start": "gulp",
     "build": "gulp prod --production",
-    "lint": "stylelint \"app/**/*.scss\" --syntax=scss",
-    "lint --fix": "stylelint \"app/**/*.scss\" --syntax=scss --fix"
+    "stylelint": "stylelint \"app/**/*.scss\" --syntax=scss",
+    "stylelint:fix": "stylelint \"app/**/*.scss\" --syntax=scss --fix",
+    "eslint": "eslint ./app/js/index.js",
+    "eslint:fix": "eslint ./app/js/index.js --fix"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-group-css-media-queries": "^1.2.2",
