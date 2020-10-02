@@ -59,12 +59,12 @@
 
   &__button {
     display: inline-block;
+    border: 0;
+    background: transparent;
     color: #c17c78;
+    cursor: pointer;
     font-size: 18px;
     line-height: 1.5;
     text-decoration: underline;
-    background: transparent;
-    border: 0;
-    cursor: pointer;
   }
 }

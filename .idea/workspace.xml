@@ -14,23 +14,23 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.stylelintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/_check.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_check.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/components/_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/components/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/_logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_logo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_input.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/components/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/_select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/core/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/core/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/core/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/core/_mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/sections/_advantage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_advantage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/sections/_description.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_description.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/sections/_effect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_effect.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/sections/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/sections/_instruction.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_instruction.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/sections/_order.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_order.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/sections/_promo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_promo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/sections/_research.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_research.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/sections/_reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_reviews.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/sections/_specialist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/sections/_specialist.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,8 @@
       <workItem from="1601038320902" duration="239000" />
       <workItem from="1601038836240" duration="111000" />
       <workItem from="1601038960994" duration="504000" />
-      <workItem from="1601621150645" duration="8608000" />
+      <workItem from="1601621150645" duration="9254000" />
+      <workItem from="1601631027214" duration="215000" />
     </task>
     <servers />
   </component>
@@ -86,6 +87,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="352" key="#File_Watchers" timestamp="1601626022740">
@@ -112,22 +114,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="165" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601624928571" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1601626690395">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1601631199265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601626690395" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1601626690395">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601631199265" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1601631199265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601626690395" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1601626690395">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601631199265" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1601631199265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601626690395" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1601626690395">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601631199265" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1601631199265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601626690395" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601631199265" />
     <state x="148" y="69" width="1694" height="710" key="SettingsEditor" timestamp="1601628318680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

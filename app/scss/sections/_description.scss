@@ -14,15 +14,15 @@
 .description-item {
 
   &__num {
-    color: transparent;
-    font-weight: 900;
-    font-size: 250px;
-    font-family: $font-additional;
-    text-align: center;
-    text-shadow: 0 4px 100px rgba(255, 255, 255, .3);
     background: linear-gradient($white-color 20%, transparent 63%);
     -webkit-background-clip: text;
     background-clip: text;
+    color: transparent;
+    font-family: $font-additional;
+    font-size: 250px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 0 4px 100px rgba(255, 255, 255, .3);
   }
 
   &__text {
@@ -33,8 +33,8 @@
   }
 
   &__image {
-    font-size: 0;
     border-radius: 5px;
+    font-size: 0;
     @extend %hidden;
   }
 }

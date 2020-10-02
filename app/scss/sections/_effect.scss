@@ -14,8 +14,8 @@
   }
 
   &__list-item {
-    margin-bottom: 2px;
     padding-left: 20px;
+    margin-bottom: 2px;
     @extend %text;
     @extend %relative;
 

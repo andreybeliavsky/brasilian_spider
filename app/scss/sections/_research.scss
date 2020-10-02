@@ -15,8 +15,8 @@
 
 .research-item {
   display: flex;
-  flex-direction: column;
   min-height: 160px;
+  flex-direction: column;
   padding: 20px;
   background: linear-gradient(290deg, #121212, #2f2f2f);
   border-radius: 10px;
@@ -32,8 +32,8 @@
   }
 
   &__name-icon {
-    flex-shrink: 0;
     width: 30px;
+    flex-shrink: 0;
     margin-left: 20px;
   }
 

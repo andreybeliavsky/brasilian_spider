@@ -2,8 +2,8 @@
   padding-top: 30px;
   padding-bottom: 15px;
   background-image: url("../img/header-bg.png");
-  background-repeat: no-repeat;
   background-position: calc(50% + 140px) 0;
+  background-repeat: no-repeat;
 
   &__logo {
     @extend %mb-1;

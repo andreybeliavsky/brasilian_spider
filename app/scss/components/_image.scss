@@ -10,9 +10,9 @@
     width: 350px;
     height: 350px;
     background: rgba(217, 50, 68, .3);
-    transform: translate(-50%, -50%);
-    filter: blur(250px);
     content: "";
+    filter: blur(250px);
+    transform: translate(-50%, -50%);
   }
 
   &::after {

@@ -3,8 +3,8 @@
   align-items: baseline;
 
   &__bar {
-    flex-grow: 1;
     height: 9px;
+    flex-grow: 1;
     background: $white-color;
     border-radius: 10px;
 
@@ -47,8 +47,8 @@
   }
 
   &__value {
-    flex-shrink: 0;
     width: 40px;
+    flex-shrink: 0;
     margin-left: 20px;
     font-size: 18px;
     line-height: 1;

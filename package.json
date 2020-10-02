@@ -28,21 +28,14 @@
     "gulp-sourcemaps": "^2.6.5",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
-    "prettier": "^2.1.2",
     "stylelint": "^12.0.0",
     "stylelint-config-airbnb": "^0.0.0",
     "stylelint-config-idiomatic-order": "^8.1.0",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-recess-order": "^2.0.3",
     "stylelint-order": "^3.1.1",
-    "stylelint-prettier": "^1.1.2",
-    "stylelint-rational-order-plugin": "^1.0.2",
     "stylelint-scss": "^3.18.0",
     "yargs": "^15.0.2"
   },
   "dependencies": {
-    "perfect-scrollbar": "^1.5.0",
     "swiper": "^6.3.2"
   },
   "author": "Andrey Beliavsky <andreybeliavsky@gmail.com>"

@@ -1,22 +1,22 @@
 .button {
   display: inline-block;
   width: 100%;
-  // padding: 26px;
-  color: $white-color;
-  font-weight: $bold-weight;
-  font-size: 30px;
-  line-height: 1.1;
-  text-align: center;
-  text-transform: uppercase;
+  border: 1px double transparent;
   background: $brand-color;
   background: red;
   //background: linear-gradient(180deg, #d93244, #8f0b0d),
   //  linear-gradient(rgba($white-color, 1), rgba($white-color));
   background-clip: content-box, border-box;
   background-origin: border-box;
-  border: 1px double transparent;
   border-radius: 10px;
+  // padding: 26px;
+  color: $white-color;
   content: "";
+  font-size: 30px;
+  font-weight: $bold-weight;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
 
   @extend %relative;
 
@@ -30,8 +30,8 @@
     left: 0;
     background: rgba(217, 50, 68, .4);
     border-radius: inherit;
-    filter: blur(50px);
     content: "";
+    filter: blur(50px);
   }
 
   &__inner {
@@ -44,9 +44,9 @@
 .button-1 {
   width: 300px;
   height: 80px;
-  background-image: radial-gradient(circle at top left, #f00, #3020ff);
-  background-clip: content-box, border-box;
-  background-origin: border-box;
   border: double 4px transparent;
+  background-clip: content-box, border-box;
+  background-image: radial-gradient(circle at top left, #f00, #3020ff);
+  background-origin: border-box;
   border-radius: 80px;
 }
