@@ -1,7 +1,7 @@
 .specialist {
 
   &__title {
-    @extend %mb-1;
+    margin-bottom: 10px;
   }
 
   &__box {
@@ -32,7 +32,7 @@
   }
 
   &__author {
-    @extend %mb-2;
+    margin-bottom: 20px;
   }
 
   &__author-name {
@@ -42,15 +42,15 @@
   }
 
   &__author-description {
-    @extend %text;
+    @extend %text-base;
   }
 
   &__article {
-    @extend %mb-2;
+    margin-bottom: 20px;
   }
 
   &__article-text {
-    @extend %mb-2;
+    margin-bottom: 20px;
 
     &:last-child {
       margin-bottom: 0;

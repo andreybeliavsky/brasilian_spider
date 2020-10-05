@@ -38,8 +38,8 @@
   color: $brand-color;
 }
 
-%text {
-  font-size: 18px;
+%text-base {
+  font-size: $size-text-base;
   line-height: 1.5;
 }
 

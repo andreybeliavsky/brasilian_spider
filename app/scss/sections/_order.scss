@@ -2,19 +2,19 @@
   background: url("../img/order-bg.png") 50% 0;
 
   &__title {
-    @extend %mb-1;
+    margin-bottom: 10px;
   }
 
   &__subtitle {
-    @extend %mb-2;
+    margin-bottom: 20px;
   }
 
   &__list {
-    @extend %mb-2;
+    margin-bottom: 20px;
   }
 
   &__list-item {
-    @extend %mb-1;
+    margin-bottom: 10px;
 
     &:last-child {
       margin-bottom: 0;

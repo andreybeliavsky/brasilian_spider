@@ -1,27 +1,27 @@
 .advantage {
 
   &__title {
-    @extend %mb-3;
+    margin-bottom: 30px;
   }
 
   &__image {
-    @extend %mb-3;
+    margin-bottom: 30px;
   }
 
   &__subtitle {
-    @extend %text;
+    margin-bottom: 10px;
+    @extend %text-base;
     @extend %bold-weight;
-    @extend %mb-1;
   }
 
   &__list {
     padding-right: 20px;
     padding-left: 20px;
-    @extend %mb-4;
+    margin-bottom: 40px;
   }
 
   &__list-item {
-    @extend %mb-4;
+    margin-bottom: 40px;
 
     &:last-child {
       margin-bottom: 0;
@@ -84,11 +84,11 @@
   }
 
   &__num {
+    margin-bottom: 10px;
     font-size: 50px;
     line-height: 1;
     @extend %brand-color;
     @extend %bold-weight;
-    @extend %mb-1;
     @extend %relative;
   }
 

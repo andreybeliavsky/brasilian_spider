@@ -1,11 +1,11 @@
 .research {
 
   &__title {
-    @extend %mb-2;
+    margin-bottom: 20px;
   }
 
   &__list-item {
-    @extend %mb-1;
+    margin-bottom: 10px;
 
     &:last-child {
       margin-bottom: 0;
@@ -23,12 +23,12 @@
 
   &__name {
     display: flex;
-    @extend %mb-2;
+    margin-bottom: 20px;
   }
 
   &__name-text {
     flex-grow: 1;
-    @extend %text;
+    @extend %text-base;
   }
 
   &__name-icon {

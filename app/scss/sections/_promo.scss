@@ -15,11 +15,11 @@
   }
 
   &__title {
-    @extend %mb-1;
+    margin-bottom: 10px;
   }
 
   &__list {
-    @extend %mb-2;
+    margin-bottom: 20px;
   }
 
   &__list-item {

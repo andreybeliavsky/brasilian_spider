@@ -1,22 +1,22 @@
 .effect {
 
   &__title {
-    @extend %mb-2;
+    margin-bottom: 20px;
   }
 
   &__subtitle {
-    @extend %mb-2;
-    @extend %text;
+    margin-bottom: 20px;
+    @extend %text-base;
   }
 
   &__list {
-    @extend %mb-1;
+    margin-bottom: 10px;
   }
 
   &__list-item {
     padding-left: 20px;
     margin-bottom: 2px;
-    @extend %text;
+    @extend %text-base;
     @extend %relative;
 
     &:last-child {

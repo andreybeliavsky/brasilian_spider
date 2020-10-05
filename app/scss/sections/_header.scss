@@ -6,17 +6,17 @@
   background-repeat: no-repeat;
 
   &__logo {
-    @extend %mb-1;
+    margin-bottom: 10px;
   }
 
   &__title {
-    @extend %mb-1;
+    margin-bottom: 10px;
   }
 
   &__subtitle {
+    margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.3;
-    @extend %mb-1;
     @extend %bold-weight;
   }
 
