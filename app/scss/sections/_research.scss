@@ -1,14 +1,31 @@
 .research {
 
+  &__inner {
+    padding-right: 40%;
+  }
+
   &__title {
     margin-bottom: 20px;
+  }
+
+  &__list {
+    @include md-block() {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -15px;
+    }
   }
 
   &__list-item {
     margin-bottom: 10px;
 
+    @include md-block() {
+      width: calc(50% - 30px);
+      margin: 15px;
+    }
+
     &:last-child {
-      margin-bottom: 0;
+      //margin-bottom: 0;
     }
   }
 }

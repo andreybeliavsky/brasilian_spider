@@ -2,20 +2,46 @@
 
   &__box {
     padding: 10px;
-    background: url("../img/promo-bg.png") center top no-repeat,
-      linear-gradient(290deg, #121212, #2f2f2f);
+    background: linear-gradient(290deg, #121212, #2f2f2f);
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+    @extend %relative;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url("../img/promo-bg.png") center top no-repeat;
+      border-radius: inherit;
+      content: "";
+
+      @include md-block() {
+        background: url("../img/promo-bg-md.png") left top no-repeat;
+        background-size: auto 100%;
+      }
+    }
   }
 
   &__box-inner {
     padding: 370px 10px 10px;
     border: 1px solid rgba($white-color, .2);
-    border-radius: 10px;
+    border-radius: inherit;
+    @extend %relative;
+
+    @include md-block() {
+      padding: 40px 40px 40px 50%;
+    }
   }
 
   &__title {
     margin-bottom: 10px;
+
+    @include md-block() {
+      font-size: 40px;
+      line-height: 1.2;
+    }
   }
 
   &__list {
@@ -43,6 +69,14 @@
       border-radius: 50%;
       box-shadow: 0 0 10px $brand-color;
       content: "";
+    }
+  }
+
+  &__button {
+    width: 100%;
+
+    @include md-block() {
+      width: auto;
     }
   }
 }

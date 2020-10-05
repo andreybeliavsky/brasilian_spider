@@ -1,6 +1,22 @@
 .order {
   background: url("../img/order-bg.png") 50% 0;
 
+  &__row {
+    @include md-block() {
+      display: flex;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+  }
+
+  &__col {
+    @include md-block() {
+      width: calc(50% - 30px);
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  }
+
   &__title {
     margin-bottom: 10px;
   }

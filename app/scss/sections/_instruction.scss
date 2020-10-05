@@ -1,5 +1,11 @@
 .instruction {
 
+  &__inner {
+    @include md-block() {
+      padding-right: 50%;
+    }
+  }
+
   &__title {
     margin-bottom: 20px;
   }

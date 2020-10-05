@@ -1,5 +1,9 @@
 .title {
   color: $white-color;
-  font-size: 30px;
+  font-size: $size-title;
   line-height: 1.2;
+
+  @include md-block() {
+    font-size: $size-title-md;
+  }
 }

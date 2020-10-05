@@ -10,6 +10,10 @@
     border-radius: 10px;
     @extend %relative;
 
+    @include md-block() {
+      padding: 90px 40px 90px 50%;
+    }
+
     &::before {
       position: absolute;
       top: 0;

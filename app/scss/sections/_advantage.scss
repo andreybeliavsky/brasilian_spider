@@ -1,5 +1,32 @@
 .advantage {
 
+  &__row {
+    @include md-block() {
+      display: flex;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+  }
+
+  &__col {
+    @include md-block() {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+
+    &--left {
+      @include md-block() {
+        width: calc(40% - 30px);
+      }
+    }
+
+    &--right {
+      @include md-block() {
+        width: calc(60% - 30px);
+      }
+    }
+  }
+
   &__title {
     margin-bottom: 30px;
   }
@@ -18,13 +45,21 @@
     padding-right: 20px;
     padding-left: 20px;
     margin-bottom: 40px;
+
+    @include md-block() {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: -15px;
+    }
   }
 
   &__list-item {
     margin-bottom: 40px;
 
-    &:last-child {
-      margin-bottom: 0;
+    @include md-block() {
+      width: calc(50% - 30px);
+      margin: 15px;
     }
   }
 }
@@ -47,6 +82,7 @@
 
   &__inner {
     z-index: 1;
+    height: 100%;
     padding: 40px 30px;
     background: linear-gradient(290deg, #121212 0%, #2f2f2f 100%);
     border-radius: 10px;

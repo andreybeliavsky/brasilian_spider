@@ -1,15 +1,10 @@
 .button {
   display: inline-block;
-  width: 100%;
-  border: 1px double transparent;
+  border: 0;
   background: $brand-color;
-  background: red;
-  //background: linear-gradient(180deg, #d93244, #8f0b0d),
-  //  linear-gradient(rgba($white-color, 1), rgba($white-color));
-  background-clip: content-box, border-box;
+  background: linear-gradient(180deg, #d93244, #8f0b0d);
   background-origin: border-box;
   border-radius: 10px;
-  // padding: 26px;
   color: $white-color;
   content: "";
   font-size: 30px;
@@ -19,7 +14,13 @@
   text-transform: uppercase;
   @extend %relative;
 
-  // box-shadow: 0 0 50px 0 $brand-color;
+  @include md-block() {
+    min-width: 260px;
+  }
+
+  &--fluid {
+    width: 100%;
+  }
 
   &::before {
     position: absolute;
@@ -33,7 +34,23 @@
     filter: blur(50px);
   }
 
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid transparent;
+    background: linear-gradient(180deg, #d93244, #8f0b0d),
+      linear-gradient(rgba($white-color, .2), rgba($white-color, 0));
+    background-clip: content-box, border-box;
+    background-origin: border-box;
+    border-radius: inherit;
+    content: "";
+  }
+
   &__inner {
+    z-index: 1;
     display: block;
     padding: 26px;
     @extend %relative;

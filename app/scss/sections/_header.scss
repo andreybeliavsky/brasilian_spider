@@ -5,12 +5,26 @@
   background-position: calc(50% + 140px) 0;
   background-repeat: no-repeat;
 
+  @include md-block() {
+    background-image: url("../img/header-bg-md.png");
+    background-position: calc(50% + 360px) 0;
+    background-size: auto 100%;
+  }
+
+  &__inner {
+    padding-right: 20%;
+  }
+
   &__logo {
     margin-bottom: 10px;
   }
 
   &__title {
     margin-bottom: 10px;
+
+    @include md-block() {
+      font-size: 80px;
+    }
   }
 
   &__subtitle {
@@ -18,8 +32,95 @@
     font-size: 16px;
     line-height: 1.3;
     @extend %bold-weight;
+
+    @include md-block() {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+  }
+
+  &__list {
+    display: none;
+
+    @include md-block() {
+      display: flex;
+      flex-wrap: wrap;
+      padding-right: 20%;
+      margin: -15px;
+    }
+  }
+
+  &__list-item {
+    @include md-block() {
+      width: calc(50% - 30px);
+      margin: 15px;
+    }
   }
 
   &__button {
+    @include md-block() {
+      margin-top: 70px;
+    }
   }
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+
+  &__aside {
+    display: flex;
+    width: 50px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__icon {
+    color: $white-color;
+
+    &--thumb-up {
+      width: 23px;
+      height: 24px;
+    }
+
+    &--chart {
+      width: 22px;
+      height: 22px;
+    }
+
+    &--watch {
+      width: 23px;
+      height: 23px;
+    }
+
+    &--gender {
+      width: 27px;
+      height: 27px;
+    }
+
+    &--smile {
+      width: 23px;
+      height: 23px;
+    }
+
+    &--arrow {
+      width: 20px;
+      height: 20px;
+    }
+
+    &--production {
+      width: 25px;
+      height: 22px;
+      color: transparent;
+    }
+
+  }
+
+  &__text {
+    flex-shrink: 1;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
 }
