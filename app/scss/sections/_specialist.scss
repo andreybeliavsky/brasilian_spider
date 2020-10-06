@@ -24,6 +24,17 @@
       border-radius: inherit;
       content: "";
     }
+
+    &::after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 50%;
+      background: url("../img/specialist-author-md.png") no-repeat center bottom;
+      background-size: 90% auto;
+      content: "";
+    }
   }
 
   &__box-inner {

@@ -1,0 +1,79 @@
+.compare {
+  display: inline-block;
+  padding: 40px;
+  @extend %relative;
+
+  &--after::before {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    border: 5px dashed $white-color;
+    border-radius: 50%;
+    content: "";
+    transform: rotate(45deg);
+  }
+
+  &__caption {
+    position: absolute;
+    z-index: 2;
+    top: 40px;
+    left: 0;
+    display: inline-block;
+    padding: 5px 20px;
+    background: $white-color;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: $black-weight;
+    line-height: 1;
+    transform: translateX(-50%);
+    @extend %brand-color;
+    @extend %text-upper;
+  }
+
+  &--before &__caption {
+    left: 25%;
+  }
+
+  &--after &__caption {
+    left: 75%;
+  }
+
+  &__box {
+    margin: 0 auto;
+    background: #252527;
+    border-radius: 50%;
+    @extend %relative;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      content: "";
+    }
+  }
+
+  &--before &__box {
+    width: 160px;
+    height: 160px;
+  }
+
+  &--before &__box::before {
+    left: 14px;
+    width: 149px;
+    height: 160px;
+    background: url("../img/research-before.png");
+  }
+
+  &--after &__box {
+    width: 200px;
+    height: 200px;
+  }
+
+  &--after &__box::before {
+    left: 16px;
+    width: 224px;
+    height: 200px;
+    background: url("../img/research-after.png");
+  }
+}
