@@ -1,5 +1,32 @@
 .instruction {
 
+  &__row {
+    @include md-block() {
+      display: flex;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+  }
+
+  &__col {
+    @include md-block() {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+
+    &--left {
+      @include md-block() {
+        width: calc(40% - 30px);
+      }
+    }
+
+    &--right {
+      @include md-block() {
+        width: calc(60% - 30px);
+      }
+    }
+  }
+
   &__inner {
     @include md-block() {
       padding-right: 50%;
@@ -8,10 +35,18 @@
 
   &__title {
     margin-bottom: 20px;
+
+    @include md-block() {
+      margin-bottom: 40px;
+    }
   }
 
   &__list {
     margin-bottom: 20px;
+
+    @include md-block() {
+      margin-bottom: 40px;
+    }
   }
 
   &__list-item {
@@ -23,16 +58,43 @@
   }
 
   &__image {
-    margin-bottom: 30px;
+    @include md-block() {
+      position: relative;
+      top: 70px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: 20px;
+
+    @include md-block() {
+      width: auto;
+      margin-top: -20px;
+    }
   }
 }
 
 .instruction-item {
+  @include md-block() {
+    display: flex;
+  }
+
+  &__aside {
+    margin-right: 20px;
+    float: left;
+
+    @include md-block() {
+      width: 60px;
+      flex-shrink: 0;
+      float: none;
+      text-align: center;
+    }
+  }
 
   &__icon {
-    margin-right: 20px;
+    display: inline-block;
     color: transparent;
-    float: left;
 
     &--gel {
       width: 23px;
@@ -49,11 +111,10 @@
     font-size: 24px;
     line-height: 45px;
     @extend %bold-weight;
+    @include clearfix();
 
-    &::after {
-      display: block;
-      clear: both;
-      content: "";
+    @include md-block() {
+      line-height: 1.5;
     }
   }
 

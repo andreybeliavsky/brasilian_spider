@@ -5,13 +5,13 @@
   }
 
   &__box {
-    padding: 15px;
+    padding: 330px 15px 15px;
     background: url("../img/specialist-bg.jpg");
     border-radius: 10px;
     @extend %relative;
 
     @include md-block() {
-      padding: 90px 40px 90px 50%;
+      padding: 40px 40px 40px 50%;
     }
 
     &::before {
@@ -28,12 +28,21 @@
     &::after {
       position: absolute;
       top: 0;
-      bottom: 0;
       left: 0;
-      width: 50%;
-      background: url("../img/specialist-author-md.png") no-repeat center bottom;
-      background-size: 90% auto;
+      width: 100%;
+      height: 100%;
+      background: url("../img/specialist-author.png") no-repeat center top;
       content: "";
+
+      @include md-block() {
+        width: 50%;
+        background: url("../img/specialist-author-md.png") no-repeat center bottom;
+        background-size: 95%;
+      }
+
+      @include lg-block() {
+        background-size: 80%;
+      }
     }
   }
 
@@ -60,26 +69,40 @@
     @extend %text-base;
   }
 
-  &__article {
+  &__text {
     margin-bottom: 20px;
-  }
+    @extend %text-base;
 
-  &__article-text {
-    margin-bottom: 20px;
+    @include md-block() {
+      font-size: 18px;
+    }
 
     &:last-child {
       margin-bottom: 0;
     }
   }
 
+  &__hide {
+    display: none;
+
+    &--show {
+      display: block;
+    }
+  }
+
   &__button {
     display: inline-block;
     border: 0;
+    margin-top: 20px;
     background: transparent;
     color: #c17c78;
     cursor: pointer;
     font-size: 18px;
     line-height: 1.5;
     text-decoration: underline;
+
+    &--hide {
+      display: none;
+    }
   }
 }

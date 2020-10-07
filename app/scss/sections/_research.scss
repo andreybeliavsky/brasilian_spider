@@ -1,11 +1,19 @@
 .research {
-  background-image: url("../img/research-bg-md.png");
-  background-position: calc(50% + 300px) 0;
-  background-repeat: no-repeat;
-  background-size: auto 100%;
+  //background-image: url("../img/research-bg.png");
+  //background-position: 50% 150px;
+  //background-repeat: no-repeat;
+  //background-size: contain;
+  //
+  //@include md-block() {
+  //  background-image: url("../img/research-bg-md.png");
+  //  background-position: calc(50% + 300px) 0;
+  //  background-size: auto 100%;
+  //}
 
   &__inner {
-    padding-right: 40%;
+    @include md-block() {
+      padding-right: 40%;
+    }
   }
 
   &__title {
@@ -13,15 +21,40 @@
   }
 
   &__list {
+    padding-top: 420px;
+    @extend %relative;
+
     @include md-block() {
       display: flex;
       flex-wrap: wrap;
+      padding-top: 0;
       margin: -15px;
+    }
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 393px;
+      height: 482px;
+      background-image: url("../img/research-bg.png");
+      content: "";
+      transform: translateX(-50%);
+
+      @include md-block() {
+        top: 50%;
+        left: 80%;
+        width: 747px;
+        height: 919px;
+        background-image: url("../img/research-bg-md.png");
+        transform: translateY(-50%);
+      }
     }
   }
 
   &__list-item {
     margin-bottom: 10px;
+    @extend %relative;
 
     @include md-block() {
       width: calc(50% - 30px);
@@ -30,6 +63,30 @@
 
     &:last-child {
       //margin-bottom: 0;
+    }
+  }
+
+  &__note {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  &__note-icon {
+    width: 40px;
+    margin-right: 10px;
+
+    @include md-block() {
+      width: 60px;
+    }
+  }
+
+  &__note-text {
+    font-size: 15px;
+    line-height: 1.5;
+
+    @include md-block() {
+      font-size: 18px;
     }
   }
 }

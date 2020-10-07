@@ -9,9 +9,10 @@
   padding-bottom: 10px;
   @extend %relative;
 
+
   &::before {
     position: absolute;
-    top: 10px;
+    top: 90%;
     right: 10px;
     bottom: 0;
     left: 10px;
@@ -24,9 +25,59 @@
   &__inner {
     z-index: 1;
     padding: 35px 15px;
-    background: $white-color;
     border-radius: 10px;
     @extend %relative;
+    @extend %hidden;
+
+    @include md-block() {
+      padding: 60px 80px;
+    }
+
+    &::after {
+      position: absolute;
+      top: 50%;
+      right: -40px;
+      bottom: 0;
+      width: 80px;
+      height: 80px;
+      margin-top: -40px;
+      border-radius: 50%;
+      box-shadow: -200px 0 0 400px $white-color;
+      content: "";
+    }
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      bottom: 0;
+      left: -40px;
+      width: 80px;
+      height: 80px;
+      margin-top: -40px;
+      border-radius: 50%;
+      box-shadow: 200px 0 0 400px $white-color;
+      content: "";
+    }
+  }
+
+  &__content {
+    z-index: 1;
+    @extend %relative;
+
+    @include md-block() {
+      display: flex;
+    }
+  }
+
+  &__aside {
+    margin-bottom: 10px;
+
+    @include md-block() {
+      width: 140px;
+      flex-shrink: 0;
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
   }
 
   &__avatar {
@@ -42,7 +93,6 @@
   }
 
   &__author {
-    margin-bottom: 10px;
     color: #2f2f2f;
     font-size: 18px;
     line-height: 1.5;
@@ -53,5 +103,9 @@
     color: #2f2f2f;
     font-size: 16px;
     line-height: 1.5;
+
+    @include md-block() {
+      font-size: 18px;
+    }
   }
 }

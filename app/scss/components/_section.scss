@@ -1,3 +1,7 @@
 .section {
   padding: 15px 0;
+
+  @include md-block() {
+    padding: 30px 0;
+  }
 }

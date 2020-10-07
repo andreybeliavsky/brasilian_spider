@@ -1,5 +1,9 @@
 .order {
-  background: url("../img/order-bg.png") 50% 0;
+  //background: url("../img/order-bg.png") 50% 0;
+
+  @include md-block() {
+    //background: url("../img/order-bg-md.png") 50% 0 no-repeat;
+  }
 
   &__row {
     @include md-block() {
@@ -39,6 +43,10 @@
 }
 
 .order-item {
+  @include md-block() {
+    display: flex;
+    align-items: center;
+  }
 
   &__num {
     margin-bottom: 5px;
@@ -47,9 +55,23 @@
     text-align: center;
     @extend %brand-color;
     @extend %bold-weight;
+
+    @include md-block() {
+      width: 70px;
+      flex-shrink: 0;
+      margin-right: 10px;
+      margin-bottom: 0;
+      text-align: left;
+    }
   }
 
   &__text {
     text-align: center;
+
+    @include md-block() {
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: left;
+    }
   }
 }

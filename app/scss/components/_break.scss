@@ -1,0 +1,7 @@
+.break-md {
+  display: none;
+
+  @include md-block() {
+    display: block;
+  }
+}
