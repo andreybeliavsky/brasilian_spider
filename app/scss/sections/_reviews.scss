@@ -36,6 +36,7 @@
 
     @include md-block() {
       padding: 60px 80px;
+      background: transparent;
     }
 
     &::after {
