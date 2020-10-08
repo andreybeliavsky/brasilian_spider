@@ -17,7 +17,7 @@
       border-radius: inherit;
       content: "";
 
-      @include md-block() {
+      @include sm-block() {
         background: url("../img/promo-bg-md.png") left top no-repeat;
         background-size: auto 100%;
       }
@@ -30,7 +30,7 @@
     border-radius: inherit;
     @extend %relative;
 
-    @include md-block() {
+    @include sm-block() {
       padding: 40px 40px 40px 50%;
     }
   }
@@ -75,7 +75,7 @@
   &__button {
     width: 100%;
 
-    @include md-block() {
+    @include sm-block() {
       width: auto;
     }
   }

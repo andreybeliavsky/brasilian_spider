@@ -1,11 +1,14 @@
 @include reset();
 
 .body {
-  background: #1a1a1a;
-  //url("../img/body-bg.png");
+  background: #1a1a1a url("../img/body-bg.png");
   color: $white-color;
   font-family: $font-text;
   line-height: 1.3;
+
+  @include md-block() {
+    background-image: url("../img/body-bg-md.png");
+  }
 }
 
 .wrapper {
